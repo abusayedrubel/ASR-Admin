@@ -111,6 +111,6 @@ body {
 /* end of task list */
 
 /*Profile*/
-#profile{
+#profile, #messages{
   margin-top: 120px;
 }

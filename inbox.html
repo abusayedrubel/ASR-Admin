@@ -37,8 +37,8 @@
               </div>
               <ul class="navbar-nav flex-column mt-4">
                 <li class="nav-item"><a href="index.html" class="nav-link text-white p-3 mb-2 sidebar-link"><i class="fas fa-home text-light fa-lg mr-3"></i>Dashboard</a></li>
-                <li class="nav-item"><a href="profile.html" class="nav-link text-white p-3 mb-2 current"><i class="fas fa-user text-light fa-lg mr-3"></i>Profile</a></li>
-                <li class="nav-item"><a href="inbox.html" class="nav-link text-white p-3 mb-2 sidebar-link"><i class="fas fa-envelope text-light fa-lg mr-3"></i>Inbox</a></li>
+                <li class="nav-item"><a href="profile.html" class="nav-link text-white p-3 mb-2 sidebar-link"><i class="fas fa-user text-light fa-lg mr-3"></i>Profile</a></li>
+                <li class="nav-item"><a href="inbox.html" class="nav-link text-white p-3 mb-2 current"><i class="fas fa-envelope text-light fa-lg mr-3"></i>Inbox</a></li>
                 <li class="nav-item"><a href="sales.html" class="nav-link text-white p-3 mb-2 sidebar-link"><i class="fas fa-shopping-cart text-light fa-lg mr-3"></i>Sales</a></li>
                 <li class="nav-item"><a href="analytics.html" class="nav-link text-white p-3 mb-2 sidebar-link"><i class="fas fa-chart-line text-light fa-lg mr-3"></i>Analytics</a></li>
                 <li class="nav-item"><a href="charts.html" class="nav-link text-white p-3 mb-2 sidebar-link"><i class="fas fa-chart-bar text-light fa-lg mr-3"></i>Charts</a></li>
@@ -80,31 +80,54 @@
   </header>
 
   <main>
-    <section id="profile" class="my-5">
+    <!--Messages-->
+    <section id="messages" class="my-5">
       <div class="container-fluid">
           <div class="row">
             <div class="col-xl-10 col-lg-9 col-md-8 ml-auto">
               <div class="row border-top pt-3">
-                <div class="col-lg-3 text-center"></div>
-                <div class="col-lg-6 text-center">
-                  <div class="card text-center">
-                    <div class="card-header">
-                      Your Profile
-                    </div>
-                    <img src="images/images8.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">Ranvir Shing</h5>
-                      <h5 class="card-title">ranvir@gmail.com</h5>
-                      <h5 class="card-title">01515263625</h5>
-                      <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repudiandae aperiam aliquid ab eligendi vero voluptatum assumenda aliquam laudantium et nulla.</p>
-                      <i class="fab fa-facebook-square fa-2x m-2"></i><i class="fab fa-twitter-square fa-2x m-2"></i><i class="fab fa-linkedin fa-2x m-2"></i><i class="fab fa-instagram fa-2x m-2"></i><i class="fab fa-skype  fa-2x m-2"></i>
-                    </div>
-                    <div class="card-footer text-muted">
-                      <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#editProfile">Edit Profile</a>
-                    </div>
-                  </div>
+                <div class="col-lg-1 text-center"></div>
+                <div class="col-lg-10 text-center">
+                  <table class="table">
+                      <thead class="thead-dark">
+                        <tr>
+                          <th scope="col">#</th>
+                          <th scope="col">Name</th>
+                          <th scope="col">Email</th>
+                          <th scope="col">Date</th>
+                          <th scope="col">Message</th>
+                          <th scope="col">Action</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <th scope="row">1</th>
+                          <td>Mark</td>
+                          <td>Otto@gmail.com</td>
+                          <td>2.2.2019</td>
+                          <td>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</td>
+                          <td><a href="" class="btn btn-danger">Delete</a></td>
+                        </tr>
+                        <tr>
+                          <th scope="row">2</th>
+                          <td>Mark</td>
+                          <td>Otto@gmail.com</td>
+                          <td>2.2.2019</td>
+                          <td>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</td>
+                          <td><a href="" class="btn btn-danger">Delete</a></td>
+                        </tr>
+                        <tr>
+                          <th scope="row">3</th>
+                          <td>Mark</td>
+                          <td>Otto@gmail.com</td>
+                          <td>2.2.2019</td>
+                          <td>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</td>
+                          <td><a href="" class="btn btn-danger">Delete</a></td>
+                        </tr>
+                      </tbody>
+                    </table>
                 </div>
-                <div class="col-lg-3 text-center"></div>
+                <div class="col-lg-1 text-center"></div>
               </div>
             </div>
           </div>
