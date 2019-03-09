@@ -109,3 +109,8 @@ body {
   border-left: 3px solid #f66436;
 }
 /* end of task list */
+
+/*Profile*/
+#profile{
+  margin-top: 120px;
+}
